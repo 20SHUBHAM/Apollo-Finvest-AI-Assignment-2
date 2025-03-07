@@ -4,10 +4,10 @@ from twilio.rest import Client
 
 # Hardcoded environment variables (replace with your actual credentials)
 SECRET_KEY = "a3c9d4e5f6b7c8d9e0f1a2b3c4d5e6f7g8h9i0j1k2l3m4n5"
-TWILIO_ACCOUNT_SID = "AC2720ac7f9b1bebd5ced54754f8bcca74"  # Replace with your Twilio Account SID
-TWILIO_AUTH_TOKEN = "4254d7e51a1519099f4324a50bba4d6c"                  # Replace with your Twilio Auth Token
-TWILIO_PHONE_NUMBER = "+18144585212"                         # Replace with your Twilio Phone Number
-AI_CALL_API_ENDPOINT = "https://api.twilio.com/2010-04-01/Accounts/AC2720ac7f9b1bebd5ced54754f8bcca74/Calls.json"
+TWILIO_ACCOUNT_SID = ""  # Replace with your Twilio Account SID
+TWILIO_AUTH_TOKEN = ""                  # Replace with your Twilio Auth Token
+TWILIO_PHONE_NUMBER = ""                         # Replace with your Twilio Phone Number
+AI_CALL_API_ENDPOINT = "https://api.twilio.com/2010-04-01/Accounts//Calls.json"
 PAYMENT_LINK_BASE_URL = "https://yourpaymentgateway.com/pay/"
 
 # Flask app setup
