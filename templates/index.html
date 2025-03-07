@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Collection Call Interface</title>
+</head>
+<body>
+    <h2>Initiate AI Collection Call</h2>
+    <form id="callForm">
+        Borrower Name:<br>
+        <input type="text" id="borrowerName" placeholder="Enter Borrower Name"><br><br>
+
+        Phone Number:<br>
+        <input type="text" id="borrowerPhone" placeholder="Enter Phone Number"><br><br>
+
+        Language:<br>
+        <select id="language">
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+        </select><br><br>
+
+        <button type="submit">Initiate Call</button>
+    </form>
+
+    <div id="response"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
